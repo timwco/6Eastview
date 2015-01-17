@@ -537,7 +537,7 @@ section {
 
 /*---------------Message-------------------*/
 #message-box {
-  background: url(../images/message-bg.jpg) no-repeat center center;
+  background: url(../images/message-bg.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1017,7 +1017,7 @@ ul#tweets li {
   }
 
   #header {
-    padding-top: 80px;
+    //padding-top: 80px;
   }
 
   .box-white {
@@ -1161,7 +1161,7 @@ ul#tweets li {
 
 /* --------------- Latest Work Icons ----------------- */
 .thumbs a {
-  background-color: rgba(131,202,193,0.90);
+  background-color: hsla(240,15%,14%,.9);
 }
 
 
@@ -1203,6 +1203,10 @@ ul#tweets li {
 .hero {
   text-align: center;
   padding: 65px 0;
+}
+
+.hero img {
+  max-width: 100%;
 }
 
 #features h3, #features p {
